@@ -245,6 +245,18 @@ body {
           p {
             font-family: "Zilla Slab", serif;
           }
+          a {
+            font-family: "Zilla Slab", serif;
+            text-decoration: none;
+            color: $dark-green;
+            border-bottom: 1px solid $dark-green;
+            font-weight: 600;
+
+            &:hover {
+              color: $med-green;
+              border-bottom: 1px solid $med-green;
+            }
+          }
         }
         .modal-footer {
           border-top: 1px solid $charcoal;
