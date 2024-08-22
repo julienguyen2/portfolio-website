@@ -19,4 +19,4 @@ I started the design process by creating wireframes and mockups in Figma. This a
 
 ## Features
 - **Responsive Design:** The site is fully responsive, ensuring a great user experience on mobile, tablet, and desktop devices.
-- **Portfolio Showcase:** Each project includes a detailed description and links to live demo/repositories.
+- **Portfolio Showcase:** Each project includes a detailed description and links to live demos/repositories.
