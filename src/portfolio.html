@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Julie Nguyen | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index,follow" />
+    <meta name="description" content="Julie Nguyen's Portfolio" />
+
+    <link rel="stylesheet" href="./stylesheets/portfolio.scss" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Your HTML goes here -->
+    <div class="content">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">Julie Nguyen</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link text-uppercase" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link active text-uppercase" href="./portfolio.html">Portfolio</a>
+              <a class="nav-link text-uppercase" href="./about.html">About</a>
+              <a class="nav-link text-uppercase" href="./contact.html">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1>Portfolio Gallery</h1>
+          <p>View a collection of my latest work.</p>
+        </div>
+      </div>
+
+      <!-- Portfolio Gallery -->
+      <div class="gallery">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <div class="image-overlay">
+                  <img src="./images/primrose-photography.jpg" class="card-img-top" alt="Primrose Photography" />
+                  <div class="overlay"></div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Primrose Photography</h5>
+                  <a class="see-more text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#primroseModal"
+                    >See More →</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <div class="image-overlay">
+                  <img src="./images/mochi-market.png" class="card-img-top" alt="Mochi Market" />
+                  <div class="overlay"></div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Mochi Market</h5>
+                  <a class="see-more text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#mochiModal"
+                    >See More →</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <div class="image-overlay">
+                  <img src="./images/cleo-apartments.png" class="card-img-top" alt="Cleo Apartments" />
+                  <div class="overlay"></div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Cleo Apartments</h5>
+                  <a class="see-more text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#cleoModal"
+                    >See More →</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <div class="image-overlay">
+                  <img src="./images/cardeal-website.png" class="card-img-top" alt="CarDeal Website" />
+                  <div class="overlay"></div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">CarDeal Website</h5>
+                  <a class="see-more text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#cardealModal"
+                    >See More →</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <div class="image-overlay">
+                  <img src="./images/pc-builder.png" class="card-img-top" alt="PC Component Builder" />
+                  <div class="overlay"></div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">PC Builder</h5>
+                  <a class="see-more text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#pcbuilderModal"
+                    >See More →</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <div class="image-overlay">
+                  <img src="./images/recipe-app.png" class="card-img-top" alt="Recipe App" />
+                  <div class="overlay"></div>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Recipe App</h5>
+                  <a class="see-more text-uppercase" href="#" data-bs-toggle="modal" data-bs-target="#recipeModal"
+                    >See More →</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modals -->
+
+      <!-- Primrose Photography Modal -->
+      <div class="modal fade" id="primroseModal" tabindex="-1" aria-labelledby="primroseModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="text-uppercase modal-title" id="primroseModalLabel">Primrose Photography</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/primrose-photography.jpg" alt="Primrose Photography" class="img-fluid modal-image" />
+              <p><b>Technologies: </b>HTML, SCSS, Bootstrap</p>
+              <p>
+                <b>Project Description: </b>Primrose Photography is a photography website I developed as my final
+                project in my WEB 2500/2620 course. The site captures the brand’s essence by showcasing a portfolio of
+                stunning photographs captured by Primrose Rosenthal, a fictional photographer. Visitors can explore the
+                portfolio, learn about the range of photography services offered, and easily connect with Primrose
+                Photography to create lasting memories.
+              </p>
+              <p><b>This project is a work in process.</b></p>
+              <!-- Add more content as needed -->
+            </div>
+            <div class="modal-footer">
+              <button class="look">
+                <a class="text-uppercase" href="./case-study.html">Case Study</a>
+              </button>
+              <button class="look">
+                <a class="text-uppercase" href="https://vocal-parfait-352ee0.netlify.app/">Take a Look</a>
+              </button>
+              <button type="button" class="text-uppercase btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mochi Market Modal -->
+      <div class="modal fade" id="mochiModal" tabindex="-1" aria-labelledby="mochiModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="text-uppercase modal-title" id="mochiModalLabel">Mochi Market</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/mochi-market.png" alt="Mochi Market" class="img-fluid modal-image" />
+              <p><b>Technologies: </b>HTML, CSS, JavaScript, Bootstrap</p>
+              <p>
+                <b>Project Description: </b>
+                Mochi Market is a vibrant and user-friendly website for a fictional Asian fusion bakery. This online
+                platform allows users to explore a variety of desserts and pastries made with fresh ingredients.
+                Visitors can browse the product offerings and learn about the bakery’s cultural inspiration, making the
+                site both informative and engaging.
+              </p>
+              <!-- Add more content as needed -->
+            </div>
+            <div class="modal-footer">
+              <button class="look">
+                <a class="text-uppercase" href="https://tranquil-stroopwafel-3590a7.netlify.app/">Take a Look</a>
+              </button>
+              <button type="button" class="text-uppercase btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cleo Apartments Modal -->
+      <div class="modal fade" id="cleoModal" tabindex="-1" aria-labelledby="cleoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="text-uppercase modal-title" id="cleoModalLabel">Cleo Apartments</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/cleo-apartments.png" alt="Cleo Apartments" class="img-fluid modal-image" />
+              <p><b>Technologies: </b>HTML, SCSS, Bootstrap</p>
+              <p>
+                <b>Project Description: </b>
+                For one of my projects in my WEB 2890 course, I developed a sleek, user-friendly website for Cleo, a
+                student rental building near a university. The site includes essential pages such as Home, Floor Plans,
+                and Roommate Matching. Each page is designed with clear navigation and features high-quality images of
+                the property. This project aims to provide a compelling digital presence for Cleo, showcasing its
+                amenities and facilitating the leasing process to attract 2nd to 4th-year students, as well as graduate
+                and professional students.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="look">
+                <a class="text-uppercase" href="https://tranquil-pika-dcebf1.netlify.app/">Take a Look</a>
+              </button>
+              <button type="button" class="text-uppercase btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CarDeal Website Modal -->
+      <div class="modal fade" id="cardealModal" tabindex="-1" aria-labelledby="cardealModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="text-uppercase modal-title" id="cardealModalLabel">CarDeal Website</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/cardeal-website.png" alt="CarDeal Website" class="img-fluid modal-image" />
+              <p><b>Technologies: </b>HTML, SCSS, Bootstrap</p>
+              <p>
+                <b>Project Description: </b>
+                This project is a one-page website designed for Cardeal, a fictional company offering cash for cars.
+                Utilizing Bootstrap 5 and SASS, the site features a customized, trendy design that avoids a generic
+                Bootstrap look. The page includes a header with a logo and navigation menu, a hero section with a
+                full-width image and form, and sections detailing the selling process, advantages, and testimonials. The
+                design incorporates creative presentations for lists, a carousel for testimonials, and a section
+                highlighting the main selling point with a call-to-action button. Additional features include a
+                responsive display of recent purchases in Bootstrap cards and an accordion for FAQs. This project
+                emphasizes a user-friendly and visually appealing design tailored to the client’s specifications.
+              </p>
+              <!-- Add more content as needed -->
+            </div>
+            <div class="modal-footer">
+              <button class="look">
+                <a class="text-uppercase" href="https://stirring-meerkat-549e8a.netlify.app/">Take a Look</a>
+              </button>
+              <button type="button" class="text-uppercase btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PC Builder Modal -->
+      <div
+        class="modal fade"
+        id="pcbuilderModal"
+        tabindex="-1"
+        aria-labelledby="pcbuilderModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="text-uppercase modal-title" id="pcbuilderModalLabel">PC Builder</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/pc-builder.png" alt="PC Builder" class="img-fluid modal-image" />
+              <p><b>Technologies: </b>CSS, JavaScript, React, Firebase</p>
+              <p>
+                <b>Project Description: </b>
+                The PC Builder is a web application designed to help users plan and budget their PC builds. This
+                application features a user-friendly component input form where users can select and price various PC
+                parts, such as CPUs, GPUs, and RAM, with real-time validation and cost calculation. Users can save and
+                compare their PC builds using Firebase, which stores their builds and displays them as cards with
+                detailed information and purchase links. Built with React, the application leverages components, state
+                management, and routing to ensure an intuitive user experience. The minimalist design enhances
+                functionality and usability, making this tool ideal for both first-time builders and tech enthusiasts.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="look">
+                <a class="text-uppercase" href="https://regal-shortbread-335f37.netlify.app/">Take a Look</a>
+              </button>
+              <button type="button" class="text-uppercase btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recipe App Modal -->
+      <div class="modal fade" id="recipeModal" tabindex="-1" aria-labelledby="recipeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="text-uppercase modal-title" id="recipeModalLabel">Recipe App</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./images/recipe-app.png" alt="Recipe App" class="img-fluid modal-image" />
+              <p><b>Technologies: </b>CSS, JavaScript, React, Firebase</p>
+              <p>
+                <b>Project Description: </b>
+                This application is a recipe app that allows users to easily add, store, and manage their favorite
+                recipes. The app features a user-friendly interface where users can quickly find recipes and showcase
+                their culinary creations to friends and family. Leveraging Firebase for backend storage, the app
+                securely saves user recipes and ensures seamless access and management. Integrating client-side
+                frameworks with cloud-based solutions delivers a practical web application for storing recipes.
+              </p>
+              <!-- Add more content as needed -->
+            </div>
+            <div class="modal-footer">
+              <button class="look">
+                <a class="text-uppercase" href="https://ubiquitous-kitsune-3fa7d4.netlify.app/">Take a Look</a>
+              </button>
+              <button type="button" class="text-uppercase btn" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <div class="outline-padding">
+          <div class="outline">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+              <div class="col">
+                <h1><a class="home-link" href="./index.html">Julie Nguyen</a></h1>
+                <ul>
+                  <li class="home-caption">Student Designer & Developer</li>
+                  <li class="copyright">© 2024 Julie Nguyen</li>
+                </ul>
+              </div>
+              <div class="col d-none d-lg-block"></div>
+              <div class="col links">
+                <h4 class="text-uppercase">Social Media</h4>
+                <ul>
+                  <li><a class="text-uppercase" href="https://www.linkedin.com/in/julienguyen-cs/">← LinkedIn</a></li>
+                  <li><a class="text-uppercase" href="https://www.instagram.com/julienguyen.8825/">← Instagram</a></li>
+                </ul>
+              </div>
+              <div class="col links">
+                <h4 class="text-uppercase">Navigation</h4>
+                <ul>
+                  <li><a class="text-uppercase" href="./index.html">← Home</a></li>
+                  <li><a class="text-uppercase" href="./portfolio.html">← Portfolio</a></li>
+                  <li><a class="text-uppercase" href="./about.html">← About</a></li>
+                  <li><a class="text-uppercase" href="./contact.html">← Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
+</html>
